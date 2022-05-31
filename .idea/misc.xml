@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.154" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/drawable/dot_selector.xml" value="0.226" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/drawable/icon-discount_background.xml" value="0.226" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/drawable/icon-tiemit_background.xml" value="0.226" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/drawable/icon_tiemit_background.xml" value="0.165" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/drawable/slider_selector_dot.xml" value="0.226" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/drawable/slider_unselector_dot.xml" value="0.226" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/activity_home_page.xml" value="0.17300724637681159" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/customdialog.xml" value="0.2" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/screen1.xml" value="0.17300724637681159" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/screen2.xml" value="0.17300724637681159" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/screen3.xml" value="0.15172101449275363" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/screen4.xml" value="0.15172101449275363" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/signup.xml" value="0.25" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/slideritemfragment.xml" value="0.25" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/welcome_intro_slider.xml" value="0.1" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/layout/welcome_slider.xml" value="0.25" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/mipmap-anydpi-v26/icon-discount.xml" value="0.226" />
+        <entry key="..\:/Adroid BT/ITstore/app/src/main/res/mipmap-anydpi-v26/icon_tiemit.xml" value="0.242" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
