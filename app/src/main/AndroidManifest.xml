@@ -11,17 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".IntroSlider"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name=".Home"
+            android:exported="false" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    <activity android:name=".MainActivity"/>
-        <activity android:name=".SignUp"/>
-        <activity android:name=".Home"/>
     </application>
 
 </manifest>

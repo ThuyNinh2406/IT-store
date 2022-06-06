@@ -1,13 +1,14 @@
 package com.example.it_store;
 
+import static com.example.it_store.IntroSlider.layouts;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
-
-import static com.example.it_store.IntroSlider.layouts;
 
 public class MyViewPagerAdapter extends PagerAdapter {
     Context cx;
