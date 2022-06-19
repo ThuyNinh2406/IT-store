@@ -16,6 +16,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.it_store.adapter.MyViewPagerAdapter;
+
 public class IntroSlider extends AppCompatActivity {
 
 

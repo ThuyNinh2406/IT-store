@@ -43,10 +43,10 @@ public class SignUp extends AppCompatActivity {
             addEvents();
         }
             private void addEvents(){
-                btn_re.setOnClickListener(new View.OnClickListener() {
+                btn_re.setOnClickListener(new View.OnClickListener() { //lắng nghe sự kiện click vào nút dangky
                     @Override
                     public void onClick(View view) {
-                        String email_1 = edtemail.getText().toString().trim();
+                        String email_1 = edtemail.getText().toString().trim(); // lay du lieu o edittext
                         String pass_1 = edtpass.getText().toString().trim();
                         Log.d("TAG", email_1);
                         if (TextUtils.isEmpty(email_1)) {
@@ -62,7 +62,7 @@ public class SignUp extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<AuthResult> task) {
                                         if (task.isSuccessful()) {
-                                            Toast.makeText(SignUp.this, "Create User", LENGTH_SHORT).show();
+                                            Toast.makeText(SignUp.this, "Create User", LENGTH_SHORT).show(); // hien thi thong bao
                                             startActivity(new Intent(getApplicationContext(), Home.class));
                                         } else {
                                             Toast.makeText(SignUp.this, "Error " + task.getException(), LENGTH_SHORT).show();
@@ -72,7 +72,8 @@ public class SignUp extends AppCompatActivity {
                         tv_login.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                                Intent intent = new Intent(SignUp.this,MainActivity.class);
+                                startActivity(intent);
                             }
                         });
                     }
